@@ -19,7 +19,7 @@
 
         // Search functionality
         function initializeSearch() {
-            const searchInput = document.querySelector('input[placeholder*="Search"]');
+            const searchInput = document.getElementById('search-input');
             const meetingItems = document.querySelectorAll('.meeting-item');
 
             if (!searchInput || !meetingItems.length) return;
